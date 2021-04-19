@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>SuparanFarm</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -26,16 +27,16 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">COW</a>
-            <a class="nav-link" href="#">GOAT</a>
-            <a class="nav-link" href="#">FISH</a>
-            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">SUBSCRIBE</a>
+            <a class="nav-link" href="#COW">COW</a>
+            <a class="nav-link" href="#GOAT">GOAT</a>
+            <a class="nav-link" href="#FISH">FISH</a>
+            <a class="nav-link " href="#SUBSCRIBE" tabindex="-1" aria-disabled="true">SUBSCRIBE</a>
           </div>
         </div>
       </div>
     </nav>
 
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide suparan-slide" data-bs-ride="carousel mt-5">
       <div class="carousel-inner">
         <div class="carousel-item active">
 
@@ -47,7 +48,7 @@
               <button class="btn btn-warning">Buy now</button>
             </div>
             <div class="col-md-5">
-              <img src="images/banner/cow1.jpeg" class="d-block w-100" alt="...">
+              <img src="images/banner/cow1.png" class="d-block w-100" alt="...">
             </div>
           </div>
 
@@ -82,7 +83,7 @@
               <button class="btn btn-warning">Buy now</button>
             </div>
             <div class="col-md-5">
-              <img src="images/banner/fish1.jpg" class="d-block w-100" alt="...">
+              <img src="images/catagori/fish1.png" class="d-block w-100" alt="...">
             </div>
           </div>
         </div>
@@ -104,8 +105,8 @@
 
   <main class="container">
 
-    <section class="container overflow-hidden mt-5">
-      <div class="row gx-5">
+    <section class="container overflow-hidden mt-5 categories">
+      <div class="row g-5">
         <div class="col">
           <div class="p-3 rounded bg-primary d-flex align-items-center justify-content-around">
             <h1>Cows Type <img src="images/catagori/cow1.png" alt=""></h1>
@@ -114,13 +115,13 @@
 
         <div class="col">
           <div class="p-3 rounded bg-info d-flex align-items-center justify-content-around">
-            <h1>Goats Type <img src="images/catagori/goat1.jpg" alt=""></h1>
+            <h1>Goats Type <img src="images/catagori/goat1.png" alt=""></h1>
           </div>
         </div>
 
         <div class="col">
           <div class="p-3 rounded bg-success d-flex align-items-center justify-content-around">
-            <h1>Fish Type <img src="images/catagori/fish1.JPG" alt=""></h1>
+            <h1>Fish Type <img src="images/catagori/fish1.png" alt=""></h1>
           </div>
         </div>
 
@@ -130,14 +131,14 @@
 
 
 
-    <section class="mt-5">
+    <section id="FISH" class="mt-5">
 
       <h3>Fish</h3>
 
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100 shadow">
-            <img src="images/fish/fish1.png.crdownload" class="card-img-top" alt="...">
+            <img src="images/fish/fish1.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">GOLDEN FISH</h5>
               <h5>100$</h5>
@@ -184,7 +185,7 @@
 
 
 
-    <section class="mt-5">
+    <section id="GOAT"class="mt-5">
 
       <h3>Goats</h3>
 
@@ -236,7 +237,7 @@
 
 
 
-    <section class="mt-5">
+    <section id="COW" class="mt-5">
 
       <h3>Cow</h3>
 
@@ -288,7 +289,7 @@
 
 
 
-    <section style="height:300px" class=" bg-info mt-5 d-flex align-items-center justify-content-center">
+    <section id="SUBSCRIBE" style="height:300px" class=" bg-info mt-5 d-flex align-items-center justify-content-center">
 
       <div>
 
